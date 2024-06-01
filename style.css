@@ -32,6 +32,8 @@ h1 a {color:#004d65;
 h1 a:hover {color: grey}
 h2 {font-family: Didot, serif;}
 img {display: block;
+width: 400px
+height: auto
   margin-left: auto;
   margin-right: auto;}
 a {cursor: hand;}
