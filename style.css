@@ -23,7 +23,7 @@ body {
 .column {
   flex: 50%;}
 h1 {
-  text-align: center;
+  text-align: right;
   color: #004d65;
   font-family: Didot, serif;}
 h1 a {color:#004d65; 
