@@ -38,8 +38,8 @@ img {
 width: 400px;
 height: auto;}
 a {cursor: hand;}
-p {font-family: Didot, serif;
-  text-align: left;}
+p {font-family: Didot, serif; text-decoration:bold;
+  }
 h4 {font-family: Didot, serif;
   text-align: left;
   font-weight:normal;
