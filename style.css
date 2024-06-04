@@ -18,12 +18,15 @@ li a:hover {
 body {
  background-color: whitesmoke; 
 }
+.headshot 
+{
+float: left;
+}
 .row {
   display: flex;}
 .column {
   flex: 50%;}
 h1 {
-  text-align: right;
   color: #004d65;
   font-family: Didot, serif;}
 h1 a {color:#004d65; 
