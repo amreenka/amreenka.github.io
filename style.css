@@ -20,7 +20,7 @@ body {
 }
 .headshot 
 {
-float: left;
+float: right;
 }
 .row {
   display: flex;}
@@ -38,7 +38,7 @@ img {
 width: 400px;
 height: auto;}
 a {cursor: hand;}
-p {font-family: Didot, serif; text-align: right;
+p {font-family: Didot, serif;
   }
 h4 {font-family: Didot, serif;
   text-align: left;
