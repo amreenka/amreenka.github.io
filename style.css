@@ -20,9 +20,8 @@ body {
 }
 .headshot 
 {
-width: 400px;
+max-width: 50%;
 height: auto;
-float: right;
 }
 .row {
   display: flex;}
