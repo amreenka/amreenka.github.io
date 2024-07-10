@@ -11,6 +11,14 @@ body
   background-color: #6C8A9D;
 }
 
+.topnav a:visited
+{
+  float: left;
+  color: #47525E;
+  text-align: center;
+  text-decoration: bold;
+  font-size: 50px;
+}
 .topnav a
 {
   float: left;
