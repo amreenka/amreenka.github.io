@@ -1,49 +1,30 @@
-ul {list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;}
-li {float: left;}
-li a {display: block;
-  padding: 8px;
-  background-color: #006d8f;
-  color: white;
-  text-decoration:none; 
-  font-family: Didot, serif;}
-li a:hover {
-  background-color: grey;
-}
-body {
- background-color: whitesmoke; 
-}
-.headshot 
+body
 {
-max-width: 30%;
-height: auto;
+   margin: 0;
+   font-family: Serif, Palatino;
 }
-.row {
-  display: flex;}
-.column {
-  flex: 50%;}
-h1 {
-  color: #004d65;
-  font-family: Didot, serif;}
-h1 a {color:#004d65; 
-      font-family: Didot, serif;
-     text-decoration:none;}
-h1 a:hover {color: grey}
-h2 {font-family: Didot, serif;}
-a {cursor: hand;}
-p {font-family: Didot, serif;
-  }
-h4 {font-family: Didot, serif;
-  text-align: left;
-  font-weight:normal;
-   font-size: 18px;
-   }
-p a:hover {color: grey}
-a:link {text-decoration:none;}
-a {font-family: Didot, serif;}
-.projects {color:#444444;}
+
+.topnav
+{
+  overflow: hidden;
+  background-color: #6C8A9D;
+}
+
+.topnav a
+{
+  float: left;
+  color: #47525E;
+  text-align: center;
+  text-decoration: bold;
+  font-size: 50px;
+}
+
+.topnav a:hover
+{
+  color: whitesmoke;
+}
+
+.topnav a.active
+{
+  color: whitesmoke;
+}
