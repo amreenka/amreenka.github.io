@@ -6,6 +6,16 @@ body
    background-color: #6C8A9D;
 }
 
+h1
+{
+  font-size: 150px;
+}
+
+p
+{
+  font-size: 40px;
+}
+
 .topnav
 {
   padding: 20px;
