@@ -10,12 +10,6 @@ h1
   font-size: 100px;
 }
 
-p
-{
-  font-size: 30px;
-  margin-left: 40px;
-}
-
 .topnav
 {
   padding: 20px;
@@ -50,4 +44,10 @@ p
   margin: 15px 15px 0 0;
   max-width: 35%;
   max-height: auto;
+}
+
+#intropagedescription
+{
+  font-size: 30px;
+  padding-left: 40px;
 }
