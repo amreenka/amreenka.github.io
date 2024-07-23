@@ -33,23 +33,27 @@ body
   color: whitesmoke;
 }
 
+.intropage
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagetitle
+{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.description
+{
+  font-size: 1cqh;
+  padding-left: 20px;
+}
+
 #headshot
 {
-  float: left;
-  margin: 15px 15px 0 0;
   max-width: 35%;
   max-height: auto;
-}
-
-#intropagedescription
-{
-  font-size: 30px;
-  padding-left: 40px;
-}
-
-#intropagetitle
-{
-  font-size: 80px;
-  margin-left: 20px;
-  background-color: pink;
 }
