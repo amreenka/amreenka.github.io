@@ -46,14 +46,15 @@ body
   padding-left: 20px;
 }
 
-.description
+.pagedescription
 {
-  font-size: 1cqh;
-  padding-left: 20px;
+  font-size: 10px;
+  padding-left: 10px;
 }
 
 #headshot
 {
   max-width: 35%;
   max-height: auto;
+  border-radius: 25px;
 }
