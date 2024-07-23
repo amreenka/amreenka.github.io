@@ -5,12 +5,6 @@ body
    background-color: #6C8A9D;
 }
 
-h1
-{
-  font-size: 80px;
-  margin-left: 20px;
-}
-
 .topnav
 {
   padding: 20px;
@@ -51,4 +45,11 @@ h1
 {
   font-size: 30px;
   padding-left: 40px;
+}
+
+#intropagetitle
+{
+  font-size: 80px;
+  margin-left: 20px;
+  background-color: pink;
 }
