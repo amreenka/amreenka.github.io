@@ -39,13 +39,14 @@ body
   align-items: center;
   justify-content: center;
   color: #47525E;
-  background-color: #190728;
 }
 
 .pagetext
 {
   font-size: 40px;
   padding-left: 40px;
+  background-color: #190728;
+
 }
 
 #description
