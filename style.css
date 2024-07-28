@@ -44,7 +44,7 @@ body
 .pagetext
 {
   font-size: 40px;
-
+  padding-block: 10px;
 }
 
 #description
