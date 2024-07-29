@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Website</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	  <link rel="stylesheet" href="style.css">
+	  <script src="script.js" defer></script>
+  </head>
+  
+  <body>
+
+  <div id="header">
+      <div class="container">
+        <nav>
+          <img src="assets/logo.png" class="logo">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Mathematics and Computer Science University Student</p>
+          <h1> Hello, I'm Amreen Kaur,<br> a passionate <br>student at McGill University</h1>
+        </div>
+      </div>
+  </div>
+<!-------------about--------------->
+  <div id="about">
+    <div class="container">
+      <div class="resume-download">
+        <!--resume--->
+      </div>
+      <div class="about-col">
+        <h1 class="sub-title">About Me</h1>
+        <br>
+        <p>
+          Hello! I’m a second-year Computer Science and Mathematics student at McGill University. 
+          <br>I am currently captivated by data analytics, cybersecurity, and computer programming. 
+          <br>My goal is to explore these fields further and apply my knowledge through hands-on experiences.
+          <br>As I search for an internship for next summer, I am eager to contribute to innovative projects and 
+          <br>learn from industry professionals. <br>With a strong foundation in both theoretical and practical aspects
+          <br>of computer science and mathematics, I am excited about the opportunity to enhance my skills and 
+          <br>make meaningful contributions to a forward-thinking team.
+        </p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">
+            Skills
+          </p>
+          <p class="tab-links" onclick="opentab('experience')">
+            Experience
+          </p>
+          <p class="tab-links" onclick="opentab('education')">
+            Education
+          </p>  
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Programming</span><br>Java, C, HTML, CSS, Javascript, Bash, Shell Scripting, MIPS</li>
+            <li><span>Languages</span><br>Fluent in English and Punjabi, Limited working proficiency in French</li>
+            <li><span>Mathematics</span><br>Calculus, ODEs</li>
+            <li><span>Algorithms</span></li>
+            <li><span>MS Office, Google Suite</span></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>April 2024 - Present</span><br>VP Hackathon at Girls Who Code McGill</li>
+            <li><span>April 2024 - Present</span><br>VP Website at Diversity In Math McGill</li>
+            <li><span>August 2022 - May 2023</span><br>Math Tutor</li>
+            <li><span>June 2022 - July 2022</span><br>Girls Who Code SIP</li>
+            <li><span>May 2020 - August 2023</span><br>LilacJewelryCo Shop Owner</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>Expected 2027</span><br>Joint BSc Mathematics and Computer Science from McGill University</li>
+            <li><span>2023</span><br>Granada High School</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
