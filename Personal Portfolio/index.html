@@ -7,6 +7,7 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
 	  <link rel="stylesheet" href="style.css">
 	  <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/b67aeda0b4.js" crossorigin="anonymous"></script>
   </head>
   
   <body>
@@ -17,9 +18,9 @@
           <img src="assets/logo.png" class="logo">
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div class="header-text">
@@ -40,13 +41,13 @@
         <p>
           Hello! I’m a second-year Computer Science and Mathematics student at McGill University. 
           <br>I am currently captivated by data analytics, cybersecurity, and computer programming. 
-          <br>My goal is to explore these fields further and apply my knowledge through hands-on experiences.
+          <br><br>My goal is to explore these fields further and apply my knowledge through hands-on experiences.
           <br>As I search for an internship for next summer, I am eager to contribute to innovative projects and 
-          <br>learn from industry professionals. <br>With a strong foundation in both theoretical and practical aspects
+          <br>learn from industry professionals. <br><br>With a strong foundation in both theoretical and practical aspects
           <br>of computer science and mathematics, I am excited about the opportunity to enhance my skills and 
           <br>make meaningful contributions to a forward-thinking team.
         </p>
-
+        <br>
         <div class="tab-titles">
           <p class="tab-links active-link" onclick="opentab('skills')">
             Skills
@@ -85,6 +86,67 @@
       </div>
     </div>
   </div>
+<!-- ------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+      <br><h1 class="sub-title"> My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="assets/thefamilydinner.png">
+          <div class="layer">
+            <h3>The Family Dinner</h3>
+            <p>A visual novel created with Javascript, exploring the intricate lives of the Astor family. </p>
+            <a href="https://devpost.com/software/the-family-dinner"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="assets/bantheban.png">
+          <div class="layer">
+            <h3>Ban the Ban</h3>
+            <p>A website focused on educating the public and spreading awareness about the FDA banning gay and bisexual men from donating blood, created using HTML, CSS, and Javascript. </p>
+            <a href="https://replit.com/@user6612741/Activist-Toolkit-Ban-the-Ban?v=1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="assets/quiz.png">
+          <div class="layer">
+            <h3>Personality Quiz</h3>
+            <p>A quiz created with Javascript, allowing the user to make decisions to determine whether they are a morning person or night owl. </p>
+            <a href="https://replit.com/@user6612741/Are-you-a-Morning-Person-or-a-Night-Owl?v=1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
 
-  </body>
+
+<!--------- contact --------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+      <h1 class="sub-title">Contact Me</h1>
+      <p><i class="fa-solid fa-paper-plane"></i> amreen.kaur2@mail.mcgill.ca</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/amreen-kaur-642948243/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/amreenka"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <a href="assets/Resume.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+
+    </div>
+  </div>
+  <br><br><br><br><br><br><br><br>
+</div>
+</body>
 </html>
