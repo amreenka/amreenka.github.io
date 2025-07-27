@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Website</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	  <link rel="stylesheet" href="oldstyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/b67aeda0b4.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+
+  <div id="header">
+      <div class="container">
+        <nav>
+          <img src="assets/logo.png" class="logo">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p> Amreen Kaur</p>
+          <h1> Welcome<br> to my <br>website!</h1>
+          <p><i class="bi bi-wrench"></i> website currently under construction!</p>
+        </div>
+      </div>
+  </div>
+<!-------------about--------------->
+  <div id="about">
+    <div class="container">
+      <div class="resume-download">
+        <!--resume--->
+      </div>
+      <div class="about-col">
+        <h1 class="sub-title">About Me</h1>
+        <br>
+        <p>
+          Hello! I’m a second-year Computer Science and Statistics major at McGill University. 
+          <br>Currently my interests include data analytics and data science. 
+          <br>My goal is to explore these fields further and apply my knowledge through hands-on experiences.
+          <br><br>Favorite algorithm: Heapsort! 
+          <br>Favorite programming language: Java
+        </p>
+        <br>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">
+            Skills
+          </p>
+          <p class="tab-links" onclick="opentab('experience')">
+            Experience
+          </p>
+          <p class="tab-links" onclick="opentab('education')">
+            Education
+          </p>  
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Programming</span><br>Java, C, HTML, CSS, Javascript, Bash, Shell Scripting, MIPS</li>
+            <li><span>Languages</span><br>Fluent in English and Punjabi, Limited working proficiency in French</li>
+            <li><span>Mathematics</span><br>Discrete Structures, Calculus, ODEs, Abstract Algebra</li>
+            <li>Algorithms</li>
+            <li>MS Office, Google Suite</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>April 2024 - Present</span><br>VP Hackathon at Girls Who Code McGill</li>
+            <li><span>April 2024 - Present</span><br>VP Website at Diversity In Math McGill</li>
+            <li><span>August 2022 - May 2023</span><br>Math Tutor</li>
+            <li><span>June 2022 - July 2022</span><br>Girls Who Code SIP</li>
+            <li><span>May 2020 - August 2023</span><br>LilacJewelryCo Shop Owner</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>Expected 2027</span><br>Joint BSc Statistics and Computer Science from McGill University</li>
+            <li><span>2023</span><br>Granada High School</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+      <br><h1 class="sub-title"> My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="assets/thefamilydinner.png">
+          <div class="layer">
+            <h3>The Family Dinner</h3>
+            <p>A visual novel created with Javascript, exploring the intricate lives of the Astor family. </p>
+            <a href="https://devpost.com/software/the-family-dinner"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="assets/bantheban.png">
+          <div class="layer">
+            <h3>Ban the Ban</h3>
+            <p>A website focused on educating the public and spreading awareness about the FDA banning gay and bisexual men from donating blood, created using HTML, CSS, and Javascript. </p>
+            <a href="https://replit.com/@user6612741/Activist-Toolkit-Ban-the-Ban?v=1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="assets/quiz.png">
+          <div class="layer">
+            <h3>Personality Quiz</h3>
+            <p>A quiz created with Javascript, allowing the user to make decisions to determine whether they are a morning person or night owl. </p>
+            <a href="https://replit.com/@user6612741/Are-you-a-Morning-Person-or-a-Night-Owl?v=1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+
+
+<!--------- contact --------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+      <h1 class="sub-title">Contact Me</h1>
+      <p><i class="fa-solid fa-paper-plane"></i> amreen.kaur2@mail.mcgill.ca</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/amreen-kaur-642948243/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/amreenka"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <a href="assets/Resume.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+
+    </div>
+  </div>
+  <br><br><br><br><br><br><br><br>
+</div>
+</body>
+</html>
