@@ -22,3 +22,5 @@ It serves as a digital intro to who I am, what I care about, and what I’m curr
 
 
 ![Website Screenshot](assets/websitess.png)
+
+Thanks for stopping by 💖
